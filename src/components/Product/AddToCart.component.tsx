@@ -148,7 +148,7 @@ const AddToCart = ({
         buttonDisabled={addToCartLoading || requestError || isCartLoading}
         fullWidth={fullWidth}
       >
-        {isCartLoading ? 'Loading...' : 'KJØP'}
+        {isCartLoading ? 'Loading...' : 'Aggiungi al carrello'}
       </Button>
     </>
   );

@@ -24,14 +24,14 @@ const OrderButton = () => {
   return (
     <div className="w-full p-2">
       <input
-        placeholder="paymentMethod"
         type="hidden"
-        value="cod"
-        checked
+        value="cod" // COD significa Cash on Delivery (Pagamento alla consegna)
         {...register('paymentMethod')}
       />
-      <div className="mt-4 flex justify-center">
-        <Button>BESTILL</Button>
+      <div className="mt-4 flex justify-center w-full">
+        <Button >
+          CONFERMA ORDINE
+        </Button>
       </div>
     </div>
   );
